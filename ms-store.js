@@ -3,6 +3,8 @@
 // @namespace   Violentmonkey Scripts
 // @icon        https://apps.microsoft.com/favicon.ico
 // @version     3.1.0
+// @updateURL   https://raw.githubusercontent.com/rvntn/ms-rgadguard/main/ms-store.js
+// @downloadURL https://raw.githubusercontent.com/rvntn/ms-rgadguard/main/ms-store.js
 //
 // @match       https://apps.microsoft.com/detail/*
 // @grant       GM_registerMenuCommand
@@ -16,7 +18,7 @@
 
 const logError = (title, detail) => {
     console.log(
-        `%c 🚨 RG-Adguard Error %c ${title} `,
+        `%c RG-Adguard Error %c ${title} `,
         'background: #d32f2f; color: #fff; padding: 2px 6px; border-radius: 4px; font-weight: bold;',
         'color: #d32f2f; font-weight: bold;',
         '\nDetail:', detail
